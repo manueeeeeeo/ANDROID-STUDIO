@@ -18,4 +18,8 @@ private fun arrays(){
     myArray.add(age)
 
     println(myArray)
+
+    // Añadir un conjunto de datos
+    myArray.addAll(listOf("Hola", "Adios", "Bienvenido"))
+    println(myArray)
 }
