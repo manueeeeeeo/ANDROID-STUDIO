@@ -22,4 +22,33 @@ private fun arrays(){
     // Añadir un conjunto de datos
     myArray.addAll(listOf("Hola", "Adios", "Bienvenido"))
     println(myArray)
+
+    // Acceso a los datos
+    val myCom = myArray[2]
+    println(myCom)
+
+    // Modificación de datos
+    myArray[5] = "La Campana"
+    println(myArray)
+
+    // Eliminacion de datos
+    myArray.removeAt(1)
+    println(myArray)
+
+    // Opreciones con Arrays
+    // RECORRER ARRAYS
+
+    myArray.forEach {
+        println(it)
+    }
+
+    // OPERACIONES ADICCIONALES
+    myArray.count() // ->CONTAR LAS COSAS QUE TIENE EL ARRAY
+
+    myArray.clear() // -> LIMPIAR EL ARRAY
+
+    myArray.first() // Obtener primer elemento
+    myArray.last() // Obtener ultimo elemento
+
+    myArray.sort() // Ordenar los elementos
 }
